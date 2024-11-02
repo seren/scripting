@@ -1,0 +1,12 @@
+Changes:
+
+- Additional grouping:
+
+Before:
+set notificationElements to groups of UI element 1 of scroll area 1 of group 1 of window "Notification Center"
+
+After:
+set notificationElements to groups of UI element 1 of scroll area 1 of group 1 of group 1 of window "Notification Center"
+
+
+- Don't bother searching by screen position, just assume that the index of the scroll area is ordered
