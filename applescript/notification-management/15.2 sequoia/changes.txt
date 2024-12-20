@@ -1,0 +1,19 @@
+Changes:
+
+- Buttons have changed into groups
+
+- Even deeper group nesting. Now there are groups below the groups in the scroll area
+
+- The index order of the notifications no longer matches the visual order, so we have to manually figure out which one is at the top
+
+
+Notes:
+
+Can't get AXAttributeDescription from Applescript it seems
+
+Roles and subroles we care about:
+AXGroup
+- AXNotificationCenterAlert
+- AXNotificationCenterAlertStack
+AXButton
+
